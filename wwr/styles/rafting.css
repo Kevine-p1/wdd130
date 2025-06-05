@@ -135,15 +135,24 @@ article{
   display: block;
   margin: 0 auto;
 }
-footer{
-    display: flex;
-    justify-content: flex-end;
-    flex-basis: 5px;
-
+footer a{
+margin-left: 50px;
+  
 }
+
 footer p{
-    font-size: large;
-    font-weight: bolder;
+ font-weight: bolder;
+}
+.images{
+  display: flex;
+  gap: 2rem;
+}
+.form{
+  background-color: rgb(229, 227, 223);
+}
+.contact_info p{
+  font-weight: bold;
+  
 }
 
 
