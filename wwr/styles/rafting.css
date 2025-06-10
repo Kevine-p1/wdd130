@@ -6,12 +6,18 @@
     --heading-font:"Oswald", san-serif;
     --body-font:"open Sans", san-serif;
 }
+ 
+
 header{
-    background-color: #fff;
+    background-color: white;
     color: var(--accent2-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+header a{
+  color: black;
+  font-weight: bold;
 }
 nav{
     justify-content: center;
@@ -149,11 +155,53 @@ footer p{
 }
 .form{
   background-color: rgb(229, 227, 223);
+  padding: 10px;
+  margin-top: 50px;
+  width: 600px;
+  border-radius: 30px;
+  margin-left: 20%;
+  margin-bottom: 10px;
+  padding-left: 25%;
+}
+.form label{
+  font-weight: bold;
+  
+}
+.form button{
+  margin-left: 20%;
+  margin-top: 10px;
+  background-color: rgb(208, 192, 161);
 }
 .contact_info p{
   font-weight: bold;
   
 }
+.css_grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  gap: 5px;
+  padding: 50px;
+
+}
+.css_grid img{
+  width:200px ;
+}
+
+figcaption{
+  font-weight: bold;
+  font-size: small;
+}
+span{
+padding:95px;
+font-size: larger;
+font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+#home_page{
+  font-size: larger;
+  font-weight: bold;
+}
+
 
 
 
